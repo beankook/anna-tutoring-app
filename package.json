@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "homepage": "https://beankook.github.io/anna-tutoring-app",
   "description": "",
   "dependencies": {
     "axios": "^1.8.4",
