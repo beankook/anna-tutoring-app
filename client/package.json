@@ -26,6 +26,7 @@
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
+  "homepage": "https://beankook.github.io/anna-tutoring-app",
   "eslintConfig": {
     "extends": [
       "react-app",
