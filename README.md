@@ -107,4 +107,4 @@ Your app will be running at `http://localhost:3000` 🌟
 ---
 
 ## 🤝 Contributors
-Made with love by Srinidhi, Vedanth, Priya, Harinika, Sangeetha 💜
+Made by Srinidhi, Vedanth, Priya, Harinika, Sangeetha 💜
