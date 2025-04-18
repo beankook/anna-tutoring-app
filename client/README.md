@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# Anna University Tutoring App 💻📚
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack MERN application built for Anna University students and teachers to connect, tutor, and match with one another!
 
-## Available Scripts
+> Think of it like "Tinder meets Coursera" but within your own campus ✨
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
+- 🗛️ Register as a student or teacher
+- 💚 Swipe right to accept / 💔 Swipe left to reject
+- 👩‍🏫 Teachers see students, students see teachers
+- 🧾 Profile image uploads with ID
+- 💸 Option for free or paid tutors
+- 🔐 Login & secure authentication with JWT
+- 🤝 View mutual matches
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧐 Tech Stack
+- **Frontend**: React + TailwindCSS + React Router
+- **Backend**: Node.js + Express
+- **Database**: MongoDB
+- **Extras**: Multer (for image upload), bcrypt, JWT, react-tinder-card
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧑‍💻 Getting Started (for contributors)
 
-### `npm run build`
+### 1. Prerequisites
+Install the following if you don't have them already:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [MongoDB Community Server](https://www.mongodb.com/try/download/community)
+- [Git](https://git-scm.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/anna-tutoring-app.git
+cd anna-tutoring-app
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Install dependencies
+#### Backend (root folder):
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Frontend (inside /client folder):
+```bash
+cd client
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### ✅ What gets installed?
+**Root folder** (`/`):
+- express
+- mongoose
+- multer
+- bcrypt
+- jsonwebtoken
+- dotenv
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Frontend** (`/client`):
+- react
+- tailwindcss
+- react-router-dom
+- axios
+- react-tinder-card
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. MongoDB Setup
+Make sure MongoDB is installed and running. You can start it with:
+```bash
+mongod
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 5. Environment Variables
+Create a `.env` file in the root folder and add:
+```env
+MONGO_URI=mongodb://localhost:27017/tutoring-app
+JWT_SECRET=supersecretkey
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### 6. Run the App
+#### Backend (in root folder):
+```bash
+node index.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Frontend (in /client folder):
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+Your app will be running at `http://localhost:3000` 🌟
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contributors
+Made with love by Srinidhi, Vedanth, Priya, Harinika, Sangeetha 💜
